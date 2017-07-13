@@ -75,7 +75,8 @@ public class  Cities {
     public static void main(String[] args) {
         Cities test = new Cities();
         while(test.inputcity());
+        System.out.println("yani kar mikone?");
         String result = test.citiesquestions(test.cities,test.number_of_cities);
-        System.out.println("your city is " + result);
+//        System.out.println("your city is " + result);
     }
 }
